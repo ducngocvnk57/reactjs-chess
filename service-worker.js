@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/reatjs-chess/precache-manifest.a31ebffd96e14f5445e351c8d2af469f.js"
+  "/reactjs-chess/precache-manifest.a78a3d260070128b253559597453c877.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/reatjs-chess/index.html", {
+workbox.routing.registerNavigationRoute("/reactjs-chess/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
